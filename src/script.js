@@ -8,8 +8,8 @@ cells.forEach((cell) => {
     // Prevent overriding a cell
     if (cell.textContent) return;
 
-    // Add ❌ or ⭕ based on the turn
-    cell.textContent = isXTurn ? "❌" : "⭕";
+    // Add ❌ or 🔵 based on the turn
+    cell.textContent = isXTurn ? "❌" : "🔵";
     isXTurn = !isXTurn; // Switch turn
   });
 });
